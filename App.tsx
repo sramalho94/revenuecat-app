@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar'
-import { Text, View } from 'react-native'
+import { Text, View, SafeAreaView } from 'react-native'
 
 export default function App() {
   return (
-    <View>
+    <SafeAreaView className="flex flex-row justify-center">
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   )
 }
