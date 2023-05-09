@@ -17,7 +17,7 @@ const HomeScreen = () => {
         {/* Pro or Upgrade Button */}
         <TouchableOpacity className="absolute z-50 top-5 right-10 items-center">
           <Ionicons name="person-circle" size={30} color="#E5962D" />
-          <Text className="text-center text-[#E5962D]">PRO/UPGRADE</Text>
+          <Text className="text-center text-papa-orange">PRO/UPGRADE</Text>
         </TouchableOpacity>
         {/* Image */}
         <Image
