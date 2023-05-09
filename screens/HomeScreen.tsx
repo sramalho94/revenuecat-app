@@ -28,47 +28,51 @@ const HomeScreen = () => {
         />
 
         {/* ActionRows */}
-        <ActionRow
-          title="Track Workout"
-          screen="Demo"
-          color="#E5962D"
-          icon="fitness"
-          vertical
-        />
-        <ActionRow
-          title="Browse Workouts"
-          screen="Demo"
-          color="#1982c4"
-          icon="library"
-          vertical
-        />
-        <ActionRow
-          title="Connect With Friends"
-          screen="Demo"
-          color="#F44174"
-          icon="share-social"
-        />
-        <ActionRow
-          title="Add an Exercise"
-          screen="Demo"
-          color="#8Ac926"
-          icon="add-circle"
-          requiresPro
-        />
-        <ActionRow
-          title="Create A Routine"
-          screen="Demo"
-          color="#c03221"
-          icon="md-time"
-          requiresPro
-        />
-        <ActionRow
-          title="Join Challenges"
-          screen="Demo"
-          color="#23967F"
-          icon="trophy"
-          requiresPro
-        />
+        <View className="mx-5">
+          <View className="flex-row  justify-between space-x-2">
+            <ActionRow
+              title="Track Workout"
+              screen="Demo"
+              color="#E5962D"
+              icon="fitness"
+              vertical
+            />
+            <ActionRow
+              title="Browse Workouts"
+              screen="Demo"
+              color="#1982c4"
+              icon="library"
+              vertical
+            />
+          </View>
+          <ActionRow
+            title="Connect With Friends"
+            screen="Demo"
+            color="#F44174"
+            icon="share-social"
+          />
+          <ActionRow
+            title="Add an Exercise"
+            screen="Demo"
+            color="#8Ac926"
+            icon="add-circle"
+            requiresPro
+          />
+          <ActionRow
+            title="Create A Routine"
+            screen="Demo"
+            color="#c03221"
+            icon="md-time"
+            requiresPro
+          />
+          <ActionRow
+            title="Join Challenges"
+            screen="Demo"
+            color="#23967F"
+            icon="trophy"
+            requiresPro
+          />
+        </View>
       </ScrollView>
     </SafeAreaView>
   )
